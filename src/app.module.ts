@@ -33,11 +33,6 @@ import { configValidationSchema } from './config.schema';
         };
       },
     }),
-    // TypeOrmModule.forRoot({
-    //   type: 'postgres',
-    //   autoLoadEntities: true,
-    //   synchronize: true,
-    // }),
     AuthModule,
   ],
   controllers: [],
